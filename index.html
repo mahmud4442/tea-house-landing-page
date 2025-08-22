@@ -29,7 +29,7 @@
 <body>
    <main class=" max-w-screen-xl mx-auto px-16 lg:px-28">
     <!-- main content -->
-    <header class="flex pt-10 mb-20 items-center">
+    <header class="lg:flex pt-10 mb-20 items-center gap-30">
         <!-- text div -->
         <div>
             <h1 class="text-5xl font-bold mb-3">It's good
@@ -46,7 +46,7 @@
             <div>
                 <img src="images/banner.png" alt="">
             </div>
-            <div class=" absolute flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg top-30 md:top-100 md:left-32 lg:left-28">
+            <div class=" absolute flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg top-50 md:top-100 md:left-32 lg:left-28">
                 <div>
                     <!-- icon -->
                     <i class="fa-solid fa-star text-yellow-500"></i>
@@ -62,35 +62,144 @@
 
     <!-- featured section -->
      <section>
-        <div class="text-center">
+         <div class="text-center">
             <h1 class="text-xl md:text-3xl lg:text-4xl font-bold mb-2 pb-2">Our Featured Products</h1>
             <p class="text-gray-600 text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
             by injected humour, or randomised words which don't look even slightly believable.  </p>
         </div>
         <!-- card div -->
-        <div class="flex grid-cols-4 gap-40 mb-30 mt-10 overflow-hidden">
-            <div class="text-center bg-gray-100 shadow-sm px-4 py-4">
-                <img src="images/tea-1.png" alt="">
+        <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-[30px] mt-10 overflow-hidden text-center ">
+            <div class="bg-gray-100 shadow-sm px-4 py-4">
+                <img class="mx-auto" src="images/tea-1.png" alt="">
                 <h2 class="font-bold text-xl">Milk Tea</h2>
-                <p class="text-sm text-gray-500 text-center">Creamer could be replaced by fresh milk</p>
+                <p class="text-sm text-gray-500">Creamer could be replaced by fresh milk</p>
             </div>
-            <div class="text-center bg-gray-100 shadow-sm px-4 py-4">
-                <img src="images/tea-2.png" alt="">
+            <div class="bg-gray-100 shadow-sm px-4 py-4">
+                <img class="mx-auto" src="images/tea-2.png" alt="">
                 <h2 class="font-bold text-xl">Black Tea</h2>
                 <p class="text-sm text-gray-500">Creamer could be replaced by fresh milk</p>
             </div>
-            <div class="text-center bg-gray-100 shadow-sm px-4 py-4">
-                <img src="images/tea-3.png" alt="">
+            <div class="bg-gray-100 shadow-sm px-4 py-4">
+                <img class="mx-auto" src="images/tea-3.png" alt="">
                 <h2 class="font-bold text-xl">Lemon Tea</h2>
                 <p class="text-sm text-gray-500">Creamer could be replaced by fresh milk</p>
             </div>
-            <div class="text-center bg-gray-100 shadow-sm px-4 py-4">
-                <img src="images/tea-4.png" alt="">
+            <div class="bg-gray-100 shadow-sm px-4 py-4">
+                <img class="mx-auto" src="images/tea-4.png" alt="">
                 <h2 class="font-bold text-xl">Green Tea</h2>
                 <p class="text-sm text-gray-500">Creamer could be replaced by fresh milk</p>
             </div>
         </div>
+
      </section>
+
+     <!-- fresh tea and basic grid layout secton -->
+      <section class="mb-20">
+        <div class="grid grid-cols-1 lg:grid-cols-2">
+            <!-- grid layout content -->
+             <div class="grid grid-cols-2 grid-rows-3 gap-4 lg:w-5/6">
+                <div class="h-38 bg-gradient-to-r from-red-100 to-red-50 rounded-xl"></div>
+                <div class="bg-orange-50 rounded-xl row-span-2">
+                    <img class="mx-auto " src="images/fresh-1.png" alt="">
+                </div>
+                <div class="bg-stone-200 rounded-xl row-span-2">
+                    <img class="mx-auto" src="images/fresh-2.png" alt="">
+                </div>
+                <div class="h-38 bg-gradient-to-r from-stone-200 to-stone-100 rounded-xl"></div>
+             </div>
+             <!-- text content  -->
+              <div>
+                <h1 class="text-3xl font-bold lg:text-5xl">Great Tea, Freshly Presented</h1>
+                <br>
+                <p class="text-gray-600 text-sm">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the
+                highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers because
+                of good words of mouth and unique customized service orginated from Taiwan.</p>
+                <br>
+                <h1 class="text-xl font-bold">Unique Taste</h1>
+                <p class="text-sm text-gray-600">A Unique and different style from other teapots gives
+                <br> a luxurious and minimalist impression</p>
+                <br>
+                <h1 class="font-bold text-xl">Premium Quality</h1>
+                <p class="text-gray-600 text-sm">Premium Quality that makes tea more elegant and more
+                <br>
+                 durable when you use it.</p>
+
+              </div>
+        </div>
+      </section>
+
+
+      <!-- customer review section -->
+
+      <section class="mb-24 ">
+        <div class=" bg-gradient-to-r from-orange-500 to-red-500 rounded-xl grid grid-cols-1 lg:grid-cols-2 text-white px-7 md:px-16">
+
+            <!-- text section -->
+            <div class="flex justify-center items-center overflow-hidden">
+                <div class="w-5/6">
+                    <h1 class="text-5xl font-bold mb-5 mt-10">Meet Our Super Clients</h1>
+                    <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form,
+                        by injected humour, or randomised words which don't look even slightly believable.</p>
+                    <button class="bg-white text-orange-500 px-3 py-2 rounded-lg">Show All</button>
+                </div>
+            </div>
+             <!-- reviews card section -->
+              <div class="relative py-24 ">
+                    <!-- middle card -->
+                <div class="absolute z-10 top-44 md:top-52 -left-32">
+                    <div class="relative left-8 md:left-32 top-10 bg-white h-50 w-full md:w-3/4 text-gray-500 rounded-lg">
+                        <div class="absolute -top-5 -left-5 bg-white rounded-full flex items-center">
+                            <img class="p-1" src="images/client.png" alt="">
+                    
+                        </div>
+                        <div class="px-5 py-15">
+                            <p class="text-gray-500">We are providing the best and suitable home insurance services for the people who are
+                                interested to treatment</p>
+                            <h3 class="font-bold">Ilham Yuda</h3>
+                            <p class="text-gray-500">Businessman</p>
+                        </div>
+                    
+                    </div>
+                </div>
+
+                <!-- top card -->
+                  <div class="relative left-8 md:left-32 bg-white h-50 w-full md:w-3/4 text-gray-500 rounded-lg opacity-40">
+                    <div class="absolute -top-5 -left-5 bg-white rounded-full flex items-center">
+                        <img class="p-1" src="images/client.png" alt="">
+                        
+                    </div>
+                    <div class="px-5 py-15">
+                        <p class="text-gray-500">We are providing the best and suitable home insurance services for the people who are
+                            interested to treatment</p>
+                        <h3 class="font-bold">Ilham Yuda</h3>
+                        <p class="text-gray-500">Businessman</p>
+                    </div>
+                   
+                  </div>
+                  <!-- bottom card -->
+                
+                    <div class="relative left-8 md:left-32 top-10 bg-white h-50 w-full md:w-3/4 text-gray-500 rounded-lg opacity-40">
+                        <div class="absolute -top-5 -left-5 bg-white rounded-full flex items-center">
+                            <img class="p-1" src="images/client.png" alt="">
+                    
+                        </div>
+                        <div class="px-5 py-15">
+                            <p class="text-gray-500">We are providing the best and suitable home insurance services for the people who are
+                                interested to treatment</p>
+                            <h3 class="font-bold">Ilham Yuda</h3>
+                            <p class="text-gray-500">Businessman</p>
+                        </div>
+                    
+                    </div>
+              
+            
+
+
+        </div>
+        
+      </section>
    </main>
 </body>
 </html>
